@@ -1,0 +1,6 @@
+body{
+    overflow-x: hidden;
+}
+a, .btn {
+    outline: none !important;
+}
