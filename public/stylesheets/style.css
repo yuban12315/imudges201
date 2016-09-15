@@ -1,6 +1,42 @@
 body{
-    overflow-x: hidden;
+    height: 1700px;
 }
+
 a, .btn {
     outline: none !important;
+}
+
+.navbar-default{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.nav-a{
+    color: white !important;
+}
+.featured{
+    background-color: #0099FF ;
+    width: 100%;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 50px;
+}
+.logo{
+    width: 200px;
+}
+.main{
+    transition: .5s;
+}
+.main:hover{
+    color: black;
+
+}
+.info{
+    margin: 0 auto;
+    max-width: 700px;
+}
+footer{
+    background-color: #242424;
+    color: white;
+    padding: 30px;
 }
