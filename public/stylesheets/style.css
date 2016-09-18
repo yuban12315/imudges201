@@ -1,41 +1,60 @@
-body{
-    height: 1700px;
+body {
+    overflow-x: hidden;
+    font-weight: 100;
 }
 
 a, .btn {
     outline: none !important;
 }
 
-.navbar-default{
+.navbar-default {
     font-family: sans-serif;
     background-color: black;
 }
 
-.nav-a{
+.nav-a {
     color: white !important;
 }
-.featured{
-    background-color: #0099FF ;
-    width: 100%;
-    padding-top: 100px;
-    color: white;
-    padding-bottom: 50px;
+
+.text {
+    text-indent: 2ch;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
-.logo{
+
+.featured {
+    background-color: #0099FF;
+    width: 100%;
+    color: white;
+    padding-top: 150px;
+    height: 800px;
+}
+
+.additon {
+    background-color: white;
+    padding: 50px;
+}
+
+.logo {
     width: 200px;
 }
-.main{
+
+.main {
+    padding: 15px;
     transition: .5s;
 }
-.main:hover{
-    color: black;
 
+.main:hover {
+    color: black;
 }
-.info{
+
+.info {
     margin: 0 auto;
     max-width: 700px;
 }
-footer{
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #242424;
     color: white;
     padding: 30px;
