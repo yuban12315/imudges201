@@ -24,19 +24,17 @@ a, .btn {
 
 .featured {
     background-color: #0099FF;
-    width: 100%;
     color: white;
-    padding-top: 150px;
     height: 800px;
+    border: 2px white solid;
 }
-
-.additon {
-    background-color: white;
-    padding: 50px;
-}
-
 .logo {
     width: 200px;
+}
+
+.info {
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 .main {
@@ -47,13 +45,33 @@ a, .btn {
 .main:hover {
     color: black;
 }
-
-.info {
-    margin: 0 auto;
-    max-width: 700px;
+.pin1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.border{
+    border: 2px #0099FF solid;
+    border-bottom: none;
+    border-top: none;
+}
+.additon {
+    background-color: white;
+    padding: 50px;
+}
+.area1{
+    background: url("../images/img1.png") no-repeat;
+    width: 100%;
+    background-size: 100% auto;
+    height: 300px;
+}
+.pin2{
+    font-weight: 600;
+    padding-top: 100px;
+    color: white;
 }
 
-footer {
+
+footer{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #242424;
     color: white;

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Title</title>
+    <style>
+        body{
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+<section  id="contain2" class="area1 col-xs-12">
+    <div class="pin2 col-xs-12" >
+        <p>
+            为什么选择我们? 很简单，“因为我们是精英”。 我们是一个拥有着共同的爱好和目标，一起努力的团队。共同的爱好和目标，一群人，一起努力，三者缺一不可。我们联盟崇拜技术，崇尚创新，我们同样在努力与拼搏。
+            我们正在成长的道路上，逐步解构精英的含义，并向其标示的方向前进！
+        </p>
+    </div>
+</section>
+<script src="javascripts/vendor/jquery.min.js"></script>
+<script src="javascripts/vendor/pin.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".pin2").pin({
+            containerSelector: "#contain2",
+            minWidth: 900
+        });
+    })
+</script>
+</body>
+</html>
